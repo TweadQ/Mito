@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap');
+
+header {
+    padding: 22px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.wrapper-header-nav {
+    display: flex;
+    gap: 50px;
+}
+
+.wrapper-header-nav a {
+    color: #fff;
+
+}
+
+.wrapper-header_logo a {
+    color: #fff;
+    border: #fff solid 5px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: red 6px 6px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* helpers */
+
+.wrapper-header-container, .container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bg-primary {
+    background-color: #b4cfb0;
+}
+
+footer {
+    padding: 50px 0px;
+}
+
+.bg-section {
+    background-color: #f2f8f2;
+}
+
+.wrapper-header-hero {
+    background-image: url(../img/photo-1576398289164-c48dc021b4e1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#t-de-mito  {
+    color: green;
+}
+
+#o-de-mito {
+    color: aqua;
+}
+
+#point-de-mito {
+    color: red;
+}
