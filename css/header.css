@@ -64,3 +64,7 @@ footer {
 #point-de-mito {
     color: red;
 }
+
+.wrapper-header-hero {
+    height: 60vh;
+}
