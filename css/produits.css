@@ -2,3 +2,64 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap');
 
+/* section 1 */
+
+.giga-bloc1, .giga-bloc2 {
+    display: flex;
+    margin: 20px 40px 10px;
+    gap: 20px;
+}
+
+
+.section1-price {
+    color: red;
+    font-size: 25px;
+}
+
+.section1 img, .section2 img, .section3 img, .section4 img {
+    width: 400px;
+    height: 300px;
+}
+
+.section1, .section2, .section3, .section4 {
+    display: flex;
+    gap: 0px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+}
+
+.section1-bu-price {
+    display: flex;
+}
+ 
+.section1-link a p {
+    color: black;
+    border: 1px solid rgb(14, 214, 28);
+    border-radius: 20px;
+    background-color: rgb(214, 138, 23);
+    box-shadow: 2px 2px 5px;
+    padding: 10px;
+    border: none;
+}
+
+.section1-bloc2 h3 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.section1-bu-price {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.section1-bloc2 p {
+    text-align: center;
+}
+
+.font-nunito {
+    font-family: 'Nunito', sans-serif;
+}

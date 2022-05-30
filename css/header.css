@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap');
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     padding: 22px;
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -15,7 +21,6 @@ header {
 
 .wrapper-header-nav a {
     color: #fff;
-
 }
 
 .wrapper-header_logo a {
@@ -68,3 +73,8 @@ footer {
 .wrapper-header-hero {
     height: 60vh;
 }
+
+a {
+    text-decoration: none;
+}
+

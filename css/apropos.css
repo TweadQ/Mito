@@ -6,6 +6,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 .wrapper-header-hero {
     background-image: url(../img/photo-1576398289164-c48dc021b4e1.jpg);
@@ -14,21 +18,13 @@
     height: 50vh;
 }
 
-.formulaire-name, .formulaire-email, .formulaire-description, .formulaire-bu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-}
-
-.formulaire-bu {
-    margin-bottom: 10px;
-}
-
-h2 {
+.section1 h1 {
     font-size: 2rem;
     text-align: center;
     color: red;
+    padding-bottom: 25px;
 }
 
+.section1 {
+    margin: 30px 0px;
+}
